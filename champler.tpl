@@ -22,6 +22,7 @@
     <link type="text/css" rel="stylesheet" href="./css/groundwork-anim.css">
     <link type="text/css" rel="stylesheet" href="./css/groundwork-ie.css"><![endif]-->
     <link type="text/css" rel="stylesheet" href="./champler.css">
+    <meta property="og:locale" content="ja_JP">
     <meta property="og:title" content="Champler! 3x3x3 スクランブルジェネレータ">
     <meta property="og:site_name" content="{{ param.sitename }}">
     <meta property="og:description" content="ルービックキューブ (3x3x3) のスクランブルを生成します。「コーナーのみスクランブル」や「エッジのみスクランブル」等のオプションを指定できます。">
