@@ -13,3 +13,10 @@ Write settings in `genhtml.py` and then excute the script:
 ```
 python genhtml.py > champler.html
 ```
+
+## Demo
+
+* [http://wrcc.main.jp/tools/champler](http://wrcc.main.jp/tools/champler)
+
+Screenshot:
+![Screenshot](screenshot.png)
