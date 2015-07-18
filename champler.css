@@ -1,0 +1,65 @@
+  /***************************************/
+ /**  ベーシック                       **/
+/***************************************/
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',arial,verdana,sans-serif;
+}
+h2 {
+    font-size: 1.15em;
+}
+p {
+    font-size: 1em;
+}
+
+  /***************************************/
+ /**  Input: フォーム関係              **/
+/***************************************/
+legend {
+    font-size: 1.4em;
+}
+label {
+    padding-top: 0;
+    display: inline-block;
+    width: 10em;
+}
+input, select {
+    display: inline-block;
+    width: auto;
+}
+#input-number {
+    width: 6em;
+}
+#button-chample, #button-copy {
+    max-width: 480px;
+    margin: auto;
+}
+
+  /***************************************/
+ /**  ローディング                     **/
+/***************************************/
+.box-loading {
+    background-color: #F2F2F2;
+}
+
+  /***************************************/
+ /**  Output: スクランブルテーブル     **/
+/***************************************/
+table {
+    font-size: 1.2em !important;
+}
+table td {
+    font-size: 0.95em;
+}
+th.idx, td.idx {
+    width: 2em !important;
+}
+th.scramble, td.scramble {
+    width: auto !important;
+}
+
+  /***************************************/
+ /**  フッター                         **/
+/***************************************/
+footer {
+    margin-top: 60px;
+}

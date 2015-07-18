@@ -1,0 +1,12 @@
+# Enable accessing w/o .html
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+
+# Accessing to Git-related directorys/files should be forbidden
+RedirectMatch 403 /\.git
+<Files ~ "^\.(htaccess|gitignore)$">
+    Order allow,deny
+    Deny from all
+</Files>
