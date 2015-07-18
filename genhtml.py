@@ -11,7 +11,7 @@ param = {}
 # サイト名
 param['sitename'] = 'ExampleNet'
 # パンくずリスト
-param['breadcrumb'] = '<a href="#">Top</a> <i class="icon-angle-right"> <a href="./chample">Champler!</a>'
+param['breadcrumb'] = '<a href="#">Top</a> <i class="icon-angle-right"></i> <a href="./chample">Champler!</a>'
 # Googleアナリティクス
 param['ga'] = 'UA-XXXXXXXX-X'
 ################################
