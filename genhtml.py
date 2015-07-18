@@ -13,7 +13,7 @@ param['sitename'] = 'ExampleNet'
 # ベースURL
 param['baseurl'] = 'http://www.example.com/champler'
 # パンくずリスト
-param['breadcrumb'] = '<a href="#">Top</a> <i class="icon-angle-right"></i> <a href="./chample">Champler!</a>'
+param['breadcrumb'] = '<a href="#">Top</a> <i class="icon-angle-right"></i> <a href="./champler">Champler!</a>'
 # Googleアナリティクス
 param['ga'] = 'UA-XXXXXXXX-X'
 ################################
