@@ -73,9 +73,6 @@ $(document).ready(function() {
     $('#button-copy').click(function() {
         $('#results-text').show();
         var textarea = document.getElementById('results-text');
-        //textarea.focus();
-        //textarea.selectionStart = 0;
-        //textarea.selectionEnd = textarea.value.length;
     });
 });
 
