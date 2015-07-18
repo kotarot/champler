@@ -92,11 +92,12 @@
         <tbody id="results-tbody">
         </tbody>
       </table>
-      <!--<div class="double-padded">
-        <button id="button-copy" class="large block" style="font-weight:normal;">
-          <i class="icon-copy"></i> 全スクランブルをクリップボードにコピー
+      <div class="double-padded">
+        <button id="button-copy" class="button block" style="font-weight:normal;">
+          <i class="icon-copy"></i> コピー用テキストを表示する
         </button>
-      </div>-->
+      </div>
+      <textarea id="results-text" style="display:none;"></textarea>
     </div><!-- /.container -->
 
     <footer class="bounceInUp animated">
