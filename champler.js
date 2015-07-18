@@ -53,18 +53,29 @@ $(document).ready(function() {
 
             success: function(result, textStatus, xhr) {
                 var results = result.results;
-                var html = '';
+                var html = '', text = '';
                 for (var i = 0, l = results.length; i < l; i++) {
                     html += '<tr><td class="idx">' + (i + 1) + '</td>';
                     html += '<td class="scramble">' + results[i].sequence + '</td></tr>';
+                    text += (i + 1) + '. ';
+                    text += results[i].sequence + '\n';
                 }
                 $('#results-tbody').html(html);
+                $('#results-text').text(text);
                 fadeInContainer('#results');
             },
             error: function(xhr, textStatus, error) {
                 fadeInContainer('#results-error');
             }
         });
+    });
+
+    $('#button-copy').click(function() {
+        $('#results-text').show();
+        var textarea = document.getElementById('results-text');
+        //textarea.focus();
+        //textarea.selectionStart = 0;
+        //textarea.selectionEnd = textarea.value.length;
     });
 });
 
