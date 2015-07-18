@@ -93,7 +93,7 @@
         </tbody>
       </table>
       <div class="double-padded">
-        <button id="button-copy" class="button block" style="font-weight:normal;">
+        <button id="button-copy" class="block" style="font-weight:normal;">
           <i class="icon-copy"></i> コピー用テキストを表示する
         </button>
       </div>
