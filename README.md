@@ -1,6 +1,6 @@
 # Champler!
 
-Champer! is a web applicition scrambling Rubik's cube (3x3x3).
+Champer! is a web applicition providing Rubik's cube scrambles (3x3x3).
 This is a web interface of 3x3x3 scrambler/solver [chample](https://github.com/kotarot/chample).
 
 ## How to build HTML
